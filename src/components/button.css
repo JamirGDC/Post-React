@@ -1,0 +1,23 @@
+.container-button{
+    background-color: #f1f3f6;
+    width: 205px;
+    height: 85px;
+    border-radius: 6px;
+    border : 1px solid rgb(233, 235, 237);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 195px;
+    height: 75px;
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(221, 225, 228);
+    font-weight: 800;
+    color: gray;
+    font-size: 1.1rem;
+}
