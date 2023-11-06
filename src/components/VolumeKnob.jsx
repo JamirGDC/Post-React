@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Knob.css';
+import '../styles/Knob.css';
 
 const Knob = () => {
   const [angle, setAngle] = useState(0);

@@ -1,0 +1,26 @@
+.container2-knob{
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.5);
+}
+
+.min{
+    position: absolute;
+    top: 87%;
+    left: 30%;
+}
+
+.max{
+    position: absolute;
+    top: 87%;
+    left: 70%;
+}
+.titleknob{
+    position: absolute;
+    top: -15%;
+    left: 46%;
+}

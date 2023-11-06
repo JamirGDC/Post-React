@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-top: 6rem;
+  padding-left: 42rem;
+  padding-right: 42rem;
+  background-color: grey;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+#root {
+  border: 3px solid lightgray;
+  background-color: rgb(241,243,246);
+  border-radius: 2%;
+  width: 600px;
+  height: 900px;
+}

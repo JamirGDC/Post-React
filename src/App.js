@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Pass from './view/pass';
-import Buttons from './view/buttons';
-import Regulator from './view/regulator';
-import React, { useState } from 'react';
-import Knob from './view/VolumeKnob';
+import React from 'react';
+import './styles/style.css'
+import Pass from './components/pass';
+import Buttons from './components/buttons';
+import KnobMain from './components/knobmain';
 
 
-function App() {
-
-  return (
-    <div className="App">
-      <Knob />
-
-      <Regulator />
-      <Pass />
-      <Buttons />
-    </div>
-  );
+export default function App() {
+  return (<>
+    <KnobMain />
+    <Pass />
+    <Buttons />
+  </>);
 }
-
-export default App;

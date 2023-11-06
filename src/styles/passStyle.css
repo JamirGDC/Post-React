@@ -1,0 +1,50 @@
+.form-check-input {
+    display: none;
+}
+
+.container-radio-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+    margin-bottom: 95px;
+}
+
+.radio-low {
+    display: flex;
+    flex-direction: row;
+}
+
+.radio-high {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    font-size: 1.2rem;
+}
+
+.container-circle {
+    width: 80px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.container-circle >:nth-child(2){
+    margin-top: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pass-title {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #6E7888;
+    position: absolute;
+}
