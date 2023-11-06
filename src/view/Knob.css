@@ -1,0 +1,49 @@
+.container-knob{
+  border: dotted 10px rgb(0, 0, 0);
+  border-color: rgb(227, 233, 30) rgba(255, 0, 0, 0.754) transparent rgb(189, 189, 189);
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.knob {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: rgb(224,230,235);
+  border: solid 1px rgb(225, 227, 228);
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0);
+}
+
+.indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: rgb(216,222,231);
+  transform: translate(-50%, -50%);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.5), -3px -3px 5px rgba(255, 255, 255, 0.5);
+
+  border: solid 5px rgb(218, 221, 226);
+}
+
+.division {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 5px;
+  height: 22px;
+  background-color: orange;
+}
+
+/* .division:nth-child(2n) {
+  background-color: #666;
+} */
